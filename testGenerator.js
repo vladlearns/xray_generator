@@ -45,6 +45,3 @@ languages.forEach((lang) => {
 fs.writeFile("xrayReady.json", JSON.stringify(testCases), (err) => {
 	console.log(err);
 });
-
-
-// write a readme file
